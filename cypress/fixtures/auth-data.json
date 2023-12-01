@@ -1,0 +1,14 @@
+{
+    "valid":{
+        "authorizationToken": "Bearer allow"
+    },
+    "deny": {
+        "authorizationToken": "Bearer deny"
+    },
+    "unauthorized": {
+        "authorizationToken": "unauthorized"
+    },
+    "wrong": {
+        "authorizationToken": "wrong"
+    }
+}

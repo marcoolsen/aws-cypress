@@ -1,0 +1,32 @@
+{
+  "name": "aws-cypress",
+  "version": "1.0.0",
+  "description": "cypress using aws-sdk",
+  "main": "index.js",
+  "scripts": {
+    "format": "npx prettier . --check",
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcoolsen/aws-cypress.git"
+  },
+  "author": "Marco Olsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcoolsen/aws-cypress/issues"
+  },
+  "homepage": "https://github.com/marcoolsen/aws-cypress#readme",
+  "dependencies": {
+    "cypress": "^13.6.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.1508.0",
+    "cypress-mochawesome-reporter": "^3.7.0",
+    "dotenv": "^16.3.1",
+    "eslint-plugin-cypress": "^2.15.1",
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.2"
+  }
+}
